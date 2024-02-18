@@ -14,7 +14,7 @@ export default function Home() {
         alt="hero"
         className="absolute w-full left-24 bottom-24 animate-blob2"
       />
-      <div className="w-full flex items-center justify-center gap-10">
+      <div className="w-full flex items-center justify-center gap-10 z-10">
         <img src="/images/csi_logo.png" alt="hero" width={100} />
         <img src="/images/MIET_Logo.webp" alt="hero" width={120} />
       </div>
@@ -24,10 +24,10 @@ export default function Home() {
             Coming soon
           </h3>
           <h1 className="text-7xl lg:text-9xl font-extrabold">
-            We’r blowing up
+            We’re brewing up
           </h1>
           <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
-            We`re under construction. Check back for an update soon. Stay in
+            We`re under Development. Check back for an update soon. Stay in
             touch!
           </p>
         </div>
