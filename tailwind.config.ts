@@ -8,50 +8,20 @@ const config: Config = {
   ],
   theme: {
     backgroundImage: {
-      hero:
-        "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
+      textGradient: "linear-gradient(94deg, #FFF 6.12%, #DAC8FF 80.25%)",
+      buttonGradient: "linear-gradient(97deg, #FFF -122.99%, #6F26FF 91.35%)",
     },
-    extend: {
-      animation: {
-        blob: "blob 7s infinite",
-        blob2: "blob2 10s infinite",
-      },
-      keyframes: {
-        blob: {
-          "0%": {
-            transform: "translate(0px, 0px) scale(1)",
-            filter: "blur(2px)",
-          },
-          "33%": {
-            transform: "translate(30px, -50px) scale(1.1)",
-            filter: "blur(0px)",
-          },
-          "66%": {
-            transform: "translate(-20px, 20px) scale(0.9)",
-            filter: "blur(2px)",
-          },
-          "100%": {
-            transform: "tranlate(0px, 0px) scale(1)",
-            filter: "blur(1px)",
-          },
-        },
-        blob2: {
-          "0%": {
-            transform: "translate(0px, 0px) scale(1)",
-            filter: "blur(2px)",
-          },
-          "50%": {
-            transform: "translate(20px, -20px) scale(1.1)",
-            filter: "blur(0px)",
-          },
-          "100%": {
-            transform: "tranlate(0px, 0px) scale(1)",
-            filter: "blur(1px)",
-          },
-        },
-      },
+    colors: {
+      glassEffect: "rgba( 255, 255, 255, 0.25 )",
+      green: "#8FE600",
+      purple: "#B95DFE",
+
+      background: "#11111B",
+    },
+    boxShadow: {
+      glass: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
