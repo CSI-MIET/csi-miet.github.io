@@ -3,7 +3,7 @@ import Main from "@/pages/Main";
 
 export default function Home() {
   return (
-    <section className="bg-background">
+    <section>
       <Main />
     </section>
   );
